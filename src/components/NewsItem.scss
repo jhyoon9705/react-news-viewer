@@ -1,0 +1,28 @@
+.newsItemBlock {
+  display: flex;
+  .thumbnail {
+    img {
+      display: block;
+      width: 160px;
+      height: 100px;
+    }
+  }
+  .contents {
+    margin-left: 1rem;
+    h2 {
+      margin: 0;
+      a {
+        color: black;
+      }
+    }
+    p {
+      margin: 0;
+      margin-top: 0.5rem;
+      // white-space: normal;
+      // line-height: 1.5;
+    }
+  }
+  & + & {
+    margin-top: 3rem;
+  }
+}
